@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Bootstrap form</title>
+</head>
+<body>
+    <div class="animate__animated container-fluid border border-5">
+        <div class="row">
+
+            <!-- First part -->
+            <div class="animate__animated  animate__delay-0.8ss animate__fadeInDownBig col-md-4 rounded bg-success bg-ppacity-90 text-white d-flex align-items-center p-5">
+                <div>
+                    <h1 class="animate__animated animate__delay-1s animate__fadeInLeft ">New Prospective Student</h1><br>
+                    <p class="animate__animated animate__delay-1s animate__fadeInLeft ">Create your myNTI Student Account <br> to get started with the new student <br>registration</p>
+                </div>
+            </div>
+
+            <!-- Form part -->
+            <div class=" animate__animated animate__delay-0.8s animate__fadeInUpBig col-md-8 rounded bg-light p-5">
+                <h3 class="mb-4 animate__animated animate__delay-1s animate__fadeInRight">Start Application</h3>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="Type Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="otherName" class="form-label">Other Name</label>
+                            <input type="text" class="form-control" id="otherName" placeholder="Type Other Name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="surname" class="form-label">Surname</label>
+                            <input type="text" class="form-control" id="surname" placeholder="Type Name">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Type Email">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="mobile" class="form-label">Mobile Number</label>
+                            <input type="text" class="form-control" id="mobile" placeholder="080 3453 0000">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="gender" class="form-label">Gender</label>
+                            <select class="form-select" id="gender">
+                                <option>Select Gender</option>
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="dob" class="form-label">Date of Birth</label>
+                            <input type="date" class="form-control" id="dob" placeholder="mm/dd/yyyy">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="maritalStatus" class="form-label">Marital Status</label>
+                            <select class="form-select" id="maritalStatus">
+                                <option>Select Status</option>
+                                <option>Single</option>
+                                <option>Married</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="physicallyChallenged" class="form-label">Physically Challenged?</label>
+                            <select class="form-select" id="physicallyChallenged">
+                                <option>None</option>
+                                <option>Yes</option>
+                                <option>No</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="disability" class="form-label">Other Disability</label>
+                            <input type="text" class="form-control" id="disability" placeholder="None">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="password" class="form-label">Choose Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Type Password">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" placeholder="Retype Password">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success animate__animated animate__delay-1s animate__fadeInRightBig">Apply</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
